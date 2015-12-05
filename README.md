@@ -32,6 +32,12 @@ Freemail.disposable?('howard@gmail.com')
 # false
 Freemail.disposable?('george@mailinater.com')
 # true
+Freemail.free_or_disposable?('howard@gmail.com')
+# true
+Freemail.free_or_disposable?('george@mailinater.com')
+# true
+Freemail.free_or_disposable?('george@github.com')
+# false
 ```
 
 ## Development
